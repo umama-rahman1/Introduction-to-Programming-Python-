@@ -1,0 +1,24 @@
+Welcome to your first day at a company specializing in banking software.
+
+You are tasked with creating a simple customer-facing interface. You will write a Python script that:
+
+Ask the customer for their current bank balance.
+One thing you DON'T have to worry about is whether or not the user enters a negative or positive amount. All accounts have overdraft protection.
+Ask the customer if they wish to deposit ('d') or withdraw ('w') from that amount. 
+Ask them to enter the amount of money they are either depositing or withdrawing. This MUST be a positive numeric value - if it is negative, you should print an error message and nullify the transaction (do nothing with their balance, i.e. their final balance will be the same as starting).
+Add or subtract that amount to/from their balance.
+Because of overdraft protection, you don't have to worry that the user is withdrawing too much money.
+You MUST store the new balance in a variable named finalBalance - this is the variable that the test script will be checking. If the variable is not present, or if it has an incorrect value, your script will fail that test.
+
+Before you write any code, start by asking yourself: how would I solve this problem mathematically? Work through a few examples on paper and note the way in which you solve the problem. Come up with an algorithm or flowchart, which you then need to turn into Python code.
+
+Some example outputs of running a possible solution script can be seen in the images below.
+
+
+Some suggestions why your program *looks* correct but is failing the Gradescope tests:
+Are your variables named correctly? The tests check the value of a variable called finalBalance
+Do you ask for the correct number of inputs? The test provides three inputs in THIS ORDER:
+Initial balance - numeric
+Transaction requested - string
+Transaction amount - numeric
+Do you convert the input values (if needed)? 

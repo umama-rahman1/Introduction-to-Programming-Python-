@@ -1,0 +1,16 @@
+Welcome to your *second* day at a company specializing in banking software.
+
+You are tasked with enhancing your simple customer-facing interface. You will write a Python script that:
+
+Ask the customer for their current bank balance.
+One thing you DON'T have to worry about is whether or not the user enters a negative or positive amount. All accounts have overdraft protection. 
+Ask the customer if they wish to deposit ('d') or withdraw ('w') from that amount.
+Then, repeat until they decide to quit: 
+Ask them to enter the amount of money they are either depositing or withdrawing. This can be positive OR negative - it does not matter in this version of the software.
+Add or subtract that amount to/from their balance.
+Because of overdraft protection, you don't have to worry that the user is withdrawing too much money. However, our banks now want to track how many times a customer withdraws more than their balance. 
+Ask the customer if they wish to deposit ('d'), withdraw ('w'), or quit ('q').
+You MUST store the overall balance in a variable named finalBalance - this is the variable that the test script will be checking. You MUST store the number of times the account went into overdraft (withdraw more than available) in a variable named overdraftCount. If these variables are not present, or if they have an incorrect value, your script will fail that test.
+
+Before you write any code, start by asking yourself: how would I solve this problem mathematically? Work through a few examples on paper and note the way in which you solve the problem. Come up with an algorithm or flowchart, which you then need to turn into Python code.
+

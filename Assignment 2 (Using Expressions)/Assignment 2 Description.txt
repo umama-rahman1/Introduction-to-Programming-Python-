@@ -1,0 +1,10 @@
+In this assignment, you will write a Python script that will
+
+prompt the user to enter horizontal force in N, to be stored in a variable called Fx
+prompt the user to enter vertical force in N, to be stored in a variable called Fy
+calculate the magnitude of the resulting force vector in N and store it in a variable named Ftotal. This is the variables whose value the test script will be checking for correctness.
+Unlike Assignment 1, you WILL need more in the file you submit than just the mathematical expression. Also note the units on the value stored in Ftotal should be N, not N2 . You should NOT use print() within the script you submit to display the result.
+
+Before you write any code, think about how you would solve this problem mathematically? Hint: Check out the Pythagorean theory, and think of how your expression in this assignment may be different. Work through a few examples on paper and note the way in which you solve the problem, then turn your algorithm into a Python script. Finally, submit the result as a file called assign2.py to Gradescope for correctness evaluation.
+
+Remember, assignments are individual work: you must complete the assignment yourself.
