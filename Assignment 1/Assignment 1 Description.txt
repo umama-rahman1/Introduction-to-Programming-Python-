@@ -1,8 +1,0 @@
-In this assignment, you will write a Python expression that, given horizontal force and vertical force, will provide the squared magnitude of the resulting force vector in N2 .
-
-You can assume that variables Fx and Fy will be created and initialized BEFORE your code is executed, so you should NOT assign their values within the script you submit (only when testing your script before submission).
-You should NOT use print() within the script you submit to display the result (only when testing your script before submission).
-You will NOT need to assign the result of your expression to a variable - like Assignment 0, you just need an expression.
-Before you write any code, think about how you would solve this problem mathematically? Hint: Check out the Pythagorean theory. Work through a few examples on paper and note the way in which you solve the problem, then turn your algorithm into a Python expression. Finally, submit the result as a file called assign1.py to Gradescope for correctness evaluation.
-
-Remember, assignments are individual work: you must complete the assignment yourself.
