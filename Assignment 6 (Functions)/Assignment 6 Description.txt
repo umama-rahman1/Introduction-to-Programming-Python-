@@ -1,0 +1,9 @@
+This assignment relates back to Assignment 3, in which we wrote banking software that allowed a user to withdraw or deposit money into their bank account, given a starting amount. It also uses the overdraft feature introduced in Assignment 4.
+
+In this assignment, we will implement three functions in Python:
+
+setStartingBalance() should ask the customer for numeric input via the console and then return that value as a float
+depositAmount()  should take two parameters - deposit amount and the current balance, and return the revised balance. If the numeric parameter is negative, the starting balance won't change - otherwise, the deposit amount will be added to the starting balance. 
+withdrawAmount()  should take two parameters - withdrawal amount and the current balance,  and return both the revised balance as well as whether or not overdraft was incurred (True if the withdrawal amount was more than the starting balance, False otherwise). If the numeric parameter is negative, the starting balance won't change - otherwise, the withdrawal amount will be subtracted from the starting balance. 
+Before beginning your implementation, consider algorithm design. It would be useful to review your solution to Assignments 3 and 4, as the algorithms may overlap; the key difference is that for this assignment, your algorithms will be contained within functions that will be called by the test script.
+
