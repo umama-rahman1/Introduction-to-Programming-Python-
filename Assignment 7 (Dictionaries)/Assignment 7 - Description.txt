@@ -1,0 +1,52 @@
+In this assignment, you will use a dictionary called balances to track money balances for people (think of it as a very insecure banking interface). This dictionary will be a global variable in your script.
+
+You will create two functions, depositMoney() and withdrawMoney(), that will be used to manipulate this dictionary to add or subtract money from a person's account. These functions will return a tuple of information. The functions you need to create are described in the function specifications below.
+
+Function 1: depositMoney(name, amount)
+
+"""
+
+Given a person's name and amount of money, adds amount to their account.
+
+If person does not have an account, one is created for them.
+
+Parameters:
+
+name - string
+
+amount - float, amount >= 0
+
+Returns: 
+
+bool - True if account existed, False if account had to be created
+
+float - new balance for person
+
+"""
+
+
+Function 2: withdrawMoney(name, amount)
+
+"""
+
+Given a person's name and amount of money, withdraws amount from their account.
+
+If person does not have enough balance, function indicates overdraft
+
+If person does not have an account, function indicates error
+
+Parameters:
+
+name - string
+
+amount - float, amount >= 0
+
+Returns: 
+
+bool - True if account existed, False if not
+
+bool - False if existing account had enough balance for withdrawal, True if account went in to overdraft or didn't exist
+
+float - New balance for person (or 0 if account did not exist)
+
+"""
